@@ -18,6 +18,10 @@ ul {
     font-size: 0.9rem;
 }
 
+.nav-link {
+    color: rebeccapurple;
+}
+
 #btnTog {
     border: none;
 }
