@@ -1,0 +1,64 @@
+* {
+    font-family: sans-serif;
+}
+
+hr {
+    margin-top: 0;    
+}
+
+ul {
+    padding: 0;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+}
+
+.spanOO {
+    font-size: 0.9rem;
+}
+
+#btnTog {
+    border: none;
+}
+
+#btnTog:focus {
+    box-shadow: none;
+}
+
+#aTitle {
+    font-size: 2rem;
+}
+
+#banner {
+    background-image: url("imgs/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 32rem;
+}
+#p1 {
+    background-color: #44b78f;
+    padding: 10px;
+}
+
+#icons {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#recentId {
+    margin-bottom: 0;
+}
+
+#recentId2 {
+    margin-bottom: 0;
+}
+
+
+@media all and (max-width: 767px)
+{
+    #banner {
+        height: 12rem;
+    }
+}
